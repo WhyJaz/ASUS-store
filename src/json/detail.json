@@ -1,0 +1,82 @@
+[   {
+        "proId":0,
+        "name":"华硕飞行堡垒6",
+        "desc":"【首页领券再减100】【新品上市】飞行堡垒6 15.6英寸游戏笔记本电脑（Windows10home /i5-8300H /8G /GTX1050ti 4G/256GSSD+1T / IPS)-经典版",
+        "price":6599,
+        "img":["../img/fx86-1.jpg","../img/fx86-2.jpg","../img/fx86-3.jpg",
+            "../img/fx86-4.jpg","../img/fx86-5.jpg"]
+    },
+    {
+        "proId":1,
+        "name":"灵耀X Pro",
+        "desc":"【热销】灵耀X Pro-双屏扩展15.6寸轻薄本(Windows10home/i7-8750H/16G内存/512GB SSD/ GeForce® GTX 1050 Ti显卡)-深蓝",
+        "price":11999,
+        "img":["../img/lyx-1.jpg","../img/lyx-2.jpg","../img/lyx-3.jpg",
+            "../img/lyx-4.jpg","../img/lyx-5.jpg"]
+    },
+    {
+        "proId":2,
+        "name":"灵耀S 2代 ",
+        "desc":"【爆款】灵耀S 2代 S4300UN-14英寸炫彩窄边框轻薄本（Windows10home/i7-8550U/8GB/256GB SSD/MX150显卡)-冰钻金",
+        "price":5699,
+        "img":["../img/lys2-1.jpg","../img/lys2-2.jpg","../img/lys2-3.jpg",
+            "../img/lys2-4.jpg","../img/lys2-5.jpg"]
+    },
+    {
+        "proId":3,
+        "name":"P5440UF",
+        "desc":"【新品上市】P5440UF-办公商用笔记本P5440UF855045X2（Windows 10 home/i7-8550U/MX130/4G内存/1TB）",
+        "price":8999,
+        "img":["../img/P5-1.jpg","../img/P5-2.jpg","../img/P5-3.jpg",
+            "../img/P5-4.jpg","../img/P5-5.jpg"]
+    },
+    {
+        "proId":4,
+        "name":" ROG枪神",
+        "desc":"【新品上市】 ROG枪神2 15.6英寸 144Hz 3ms 防炫光窄边框游戏笔记本电脑（Windows 10 home/i7-8750H/GeForce® GTX 1070 8G GDDR5独显/16G内存/256GB PCI-E SSD+1TB SSHD/144Hz 雾面",
+        "price":15999,
+        "img":["../img/ROG-1.jpg","../img/ROG-2.jpg","../img/ROG-3.jpg",
+            "../img/ROG-4.jpg","../img/ROG-5.jpg"]
+    },
+    {
+        "proId":5,
+        "name":"U4100UN",
+        "desc":"【全新升级8代CPU】U4100UN-灵耀窄边框轻薄笔记本（Windows10 home/i5-8250U/MX150 2G/8G/256G SSD/IPS屏/纳米压印技术)-玫瑰金",
+        "price":6199,
+        "img":["../img/lyU4-1.jpg","../img/lyU4-2.jpg","../img/lyU4-3.jpg",
+            "../img/lyU4-4.jpg","../img/lyU4-5.jpg"]
+    },
+    {
+        "proId":6,
+        "name":"高通TP370QL",
+        "desc":"高通TP370QL-畅370骁龙本360°自由翻转二合一（高通骁龙835移动平台/独显/8GB/128GB/无限流量网卡）-灰色",
+        "price":5999,
+        "img":["../img/TP-1.jpg","../img/TP-2.jpg","../img/TP-3.jpg",
+            "../img/TP-4.jpg","../img/TP-5.jpg"]
+    },
+    {
+        "proId":7,
+        "name":"Y4000UB",
+        "desc":"Y4000UB-14英寸顽石轻薄窄边框笔记本（Windows10home/i5-8250U/4GB/500GB+128G SSD/GeForce® MX110显卡)-冰柱金",
+        "price":4349,
+        "img":["../img/Y4-1.jpg","../img/Y4-2.jpg","../img/Y4-3.jpg",
+            "../img/Y4-4.jpg","../img/Y4-5.jpg"]
+    },
+    {
+        "proId":8,
+        "name":"K505BP",
+        "desc":"K505BP-窄边框笔记本（Windows 10 home/AMD A9-9420P/R5 M420 2G/8GB/128G SSD+500G）-灰色",
+        "price":4499,
+        "img":["../img/K5-1.jpg","../img/K5-2.jpg","../img/K5-3.jpg",
+            "../img/K5-4.jpg","../img/K5-5.jpg"]
+    },
+    {
+        "proId":9,
+        "name":"灵耀3 Deluxe ",
+        "desc":"灵耀3 Deluxe 轻薄笔记本（Windows 10 home-office 2016/ i7-8550U/16G/512GB SSD）",
+        "price":14979,
+        "img":["../img/lyD-1.jpg","../img/lyD-2.jpg","../img/lyD-3.jpg",
+            "../img/lyD-4.jpg","../img/lyD-5.jpg"]
+    }
+
+]

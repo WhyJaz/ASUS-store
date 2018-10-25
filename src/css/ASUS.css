@@ -1,0 +1,301 @@
+.banner {
+  margin: 0 auto;
+  width: 100%;
+  height: 500px; }
+  .banner img {
+    height: 500px; }
+  .banner .banner-center {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px; }
+    .banner .banner-center > ul {
+      width: 234px;
+      height: 500px;
+      position: absolute;
+      top: -500px;
+      z-index: 100;
+      background-color: rgba(0, 0, 0, 0.5); }
+      .banner .banner-center > ul > li {
+        margin-top: 16px;
+        padding-left: 10px;
+        line-height: 45px; }
+        .banner .banner-center > ul > li:hover {
+          background-color: #00a8ff; }
+        .banner .banner-center > ul > li > a {
+          width: 234px;
+          display: block;
+          height: 45px;
+          font-size: 15px;
+          color: #fff; }
+          .banner .banner-center > ul > li > a > span {
+            line-height: 45px;
+            margin-right: 20px; }
+
+.evaluate {
+  width: 1200px;
+  margin: 0 auto;
+  height: 150px;
+  margin-top: 15px; }
+  .evaluate > div:nth-of-type(1) {
+    width: 226px;
+    height: 152px;
+    background-color: #666; }
+    .evaluate > div:nth-of-type(1) > a {
+      float: left;
+      display: block;
+      width: 113px;
+      height: 76px;
+      border-bottom: 1px solid #fff;
+      border-right: 1px solid #fff;
+      text-align: center; }
+      .evaluate > div:nth-of-type(1) > a:hover > p {
+        color: white; }
+      .evaluate > div:nth-of-type(1) > a > img {
+        margin-top: 10px; }
+      .evaluate > div:nth-of-type(1) > a > p {
+        margin-top: 5px;
+        font-size: 13px;
+        color: #ccc; }
+
+.special {
+  width: 1200px;
+  height: 360px;
+  margin: 20px auto;
+  overflow: hidden; }
+  .special > h3 {
+    border-left: 3px solid #00a8ff;
+    padding-left: 15px; }
+  .special > div {
+    margin-top: 15px;
+    width: 393px;
+    height: 340px;
+    float: left;
+    margin-right: 10px; }
+    .special > div:nth-of-type(3) {
+      margin-right: 0;
+      float: right; }
+    .special > div > a > img {
+      display: block;
+      float: left;
+      width: 196px; }
+    .special > div > a:nth-of-type(1) > img {
+      width: 393px; }
+
+.explode-list {
+  width: 1200px;
+  margin: 30px auto;
+  height: 450px;
+  overflow: hidden;
+  position: relative; }
+  .explode-list > h3 {
+    padding-left: 15px;
+    border-left: 3px solid #00a8ff;
+    height: 40px;
+    line-height: 40px; }
+  .explode-list .select-btn {
+    height: 40px;
+    margin-top: 10px; }
+    .explode-list .select-btn > a {
+      text-align: center;
+      line-height: 20px;
+      float: left;
+      display: block;
+      width: 30px;
+      height: 20px;
+      border: 1px solid #aaa;
+      font-size: 14px; }
+      .explode-list .select-btn > a:nth-of-type(1) {
+        color: #aaa; }
+      .explode-list .select-btn > a:nth-of-type(2) {
+        border-left: none; }
+  .explode-list .products-list {
+    margin-top: 10px;
+    width: 2400px;
+    position: absolute; }
+    .explode-list .products-list > li {
+      float: left;
+      height: 400px;
+      width: 240px;
+      text-align: center;
+      padding: 0 15px;
+      border: 1px solid #aaa;
+      border-right: none; }
+      .explode-list .products-list > li:nth-of-type(5) {
+        border-right: 1px solid #aaa; }
+      .explode-list .products-list > li:nth-of-type(10) {
+        border-right: 1px solid #aaa; }
+      .explode-list .products-list > li > a {
+        display: block;
+        width: 210px;
+        height: 320px; }
+      .explode-list .products-list > li img {
+        width: 200px;
+        margin-top: 15px; }
+      .explode-list .products-list > li p {
+        font-size: 12px;
+        line-height: 30px;
+        margin-top: 20px;
+        color: #555; }
+      .explode-list .products-list > li > span {
+        line-height: 50px;
+        color: red;
+        font-size: 18px; }
+
+.good-back {
+  width: 1200px;
+  margin: 30px auto;
+  height: 120px; }
+  .good-back > a > img {
+    width: 1200px; }
+
+.products {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #eee;
+  padding-top: 40px; }
+  .products .pc {
+    margin: 0 auto;
+    width: 1200px;
+    height: 717px; }
+    .products .pc > div {
+      height: 630px;
+      margin-top: 20px; }
+    .products .pc > h3 {
+      padding-left: 15px;
+      border-left: 3px solid #00a8ff;
+      height: 30px;
+      line-height: 30px; }
+      .products .pc > h3 > a {
+        float: right;
+        font-size: 16px;
+        margin-right: 20px; }
+        .products .pc > h3 > a:hover {
+          color: #00a8ff; }
+        .products .pc > h3 > a > span {
+          font-size: 14px; }
+    .products .pc .pc-middle {
+      width: 750px; }
+      .products .pc .pc-middle .title {
+        position: relative;
+        width: 750px;
+        height: 630px; }
+        .products .pc .pc-middle .title > li {
+          text-align: center;
+          float: left;
+          width: 150px;
+          height: 40px;
+          line-height: 40px;
+          background-color: #ccc; }
+          .products .pc .pc-middle .title > li > a {
+            font-size: 16px; }
+          .products .pc .pc-middle .title > li .fcolor {
+            color: #fff; }
+          .products .pc .pc-middle .title > li .swiper-container {
+            width: 750px; }
+          .products .pc .pc-middle .title > li .content {
+            position: absolute;
+            left: 0;
+            top: 40px;
+            display: none; }
+            .products .pc .pc-middle .title > li .content .prod-list {
+              background-clip: #fff;
+              width: 750px; }
+              .products .pc .pc-middle .title > li .content .prod-list > li {
+                width: 250px;
+                height: 295px;
+                float: left;
+                border-right: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                background-color: #fff; }
+                .products .pc .pc-middle .title > li .content .prod-list > li:hover {
+                  box-shadow: -2px 2px 2px #aaa; }
+                .products .pc .pc-middle .title > li .content .prod-list > li > a {
+                  display: block;
+                  height: 250px;
+                  padding: 0 10px; }
+                  .products .pc .pc-middle .title > li .content .prod-list > li > a > img {
+                    width: 204px; }
+                  .products .pc .pc-middle .title > li .content .prod-list > li > a > p {
+                    line-height: 30px; }
+                .products .pc .pc-middle .title > li .content .prod-list > li > span {
+                  font-size: 16px;
+                  color: red; }
+          .products .pc .pc-middle .title > li .d-show {
+            display: block; }
+          .products .pc .pc-middle .title > li .d-hide {
+            display: none; }
+        .products .pc .pc-middle .title .bgcolor {
+          background-color: #00a8ff; }
+    .products .pc .pc-right {
+      width: 207px;
+      text-align: center;
+      height: 630px; }
+      .products .pc .pc-right > p {
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #00a8ff; }
+      .products .pc .pc-right > ul {
+        text-align: center; }
+        .products .pc .pc-right > ul > li {
+          width: 207px;
+          height: 98px;
+          border-bottom: 1px solid #aaa; }
+          .products .pc .pc-right > ul > li:nth-of-type(6) {
+            height: 100px; }
+          .products .pc .pc-right > ul > li > a > img {
+            margin-top: 8px;
+            float: left;
+            width: 82px;
+            height: 82px; }
+          .products .pc .pc-right > ul > li > a > p {
+            text-align: left;
+            font-size: 14px;
+            padding-top: 20px; }
+          .products .pc .pc-right > ul > li > span {
+            float: left;
+            color: red;
+            font-size: 16px; }
+
+#competion .title > li {
+  width: 25%; }
+
+#complete .title > li {
+  width: 33.33%; }
+
+#phone .title > li {
+  width: 33.33%; }
+
+.banner-center > ul {
+  position: relative; }
+  .banner-center > ul > li:hover > ul {
+    display: block; }
+  .banner-center > ul > li > ul {
+    position: absolute;
+    left: 234px;
+    top: 0px;
+    background-color: #fff;
+    width: 450px;
+    height: 500px;
+    font-size: 14px;
+    display: none; }
+    .banner-center > ul > li > ul > li {
+      padding: 11px 0;
+      border-bottom: 1px solid #aaa; }
+      .banner-center > ul > li > ul > li > img {
+        width: 50px;
+        height: 50px;
+        display: block;
+        float: left;
+        margin-left: 5px; }
+      .banner-center > ul > li > ul > li > span {
+        margin-left: 15px;
+        margin-right: 25px; }
+      .banner-center > ul > li > ul > li > a {
+        display: inline-block;
+        margin-right: 20px; }
+        .banner-center > ul > li > ul > li > a:hover {
+          color: #00a8ff; }
+      .banner-center > ul > li > ul > li:nth-of-type(6) {
+        border-bottom: none; }

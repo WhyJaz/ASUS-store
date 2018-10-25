@@ -1,0 +1,170 @@
+@charset "UTF-8";
+.topbar {
+  margin: 0 auto;
+  width: 1080px;
+  height: 65px; }
+
+/* logo */
+.logo {
+  height: 65px;
+  line-height: 65px; }
+  .logo > a > img {
+    vertical-align: middle; }
+
+/* 语言选择 */
+.selectLanguage {
+  width: 125px;
+  height: 26px;
+  line-height: 26px;
+  margin-top: 22px; }
+  .selectLanguage > img {
+    display: block;
+    width: 26px; }
+  .selectLanguage > a {
+    font-size: 16px; }
+    .selectLanguage > a:nth-of-type(1) {
+      margin-left: 5px;
+      font-size: 13px;
+      color: black; }
+    .selectLanguage > a:nth-of-type(2) {
+      margin-left: 5px; }
+
+/* 主体注册 */
+.main {
+  margin: 0 auto;
+  width: 1020px;
+  height: 728px;
+  background-color: #fff;
+  padding: 30px; }
+
+.sub-panel {
+  width: 505px;
+  height: 680px;
+  padding: 30px 0 0 35px;
+  border-right: 1px solid #ccc; }
+  .sub-panel > p {
+    margin-top: 15px;
+    height: 54px;
+    width: 400px;
+    letter-spacing: 1px; }
+
+.page-title {
+  width: 380px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: normal;
+  font-size: 18px; }
+
+.signup-btn > a {
+  display: block;
+  width: 42px;
+  height: 18px;
+  color: #00a8ff;
+  font-size: 14px;
+  line-height: 18px;
+  background: url("../img/sub_button.png") no-repeat right; }
+
+/* 服务 */
+.service > div {
+  width: 400px;
+  height: 70px; }
+  .service > div > img {
+    display: block; }
+  .service > div > h2 {
+    font-size: 16px;
+    padding-top: 10px; }
+
+/* 登录 */
+.login {
+  width: 455px;
+  height: 616px;
+  padding: 40px 0 0 50px; }
+  .login > h2 {
+    width: 343px;
+    height: 43px;
+    line-height: 43px;
+    font-size: 28px;
+    font-weight: 520; }
+  .login > p {
+    width: 343px;
+    height: 18px;
+    text-align: center;
+    font-size: 16px; }
+
+/* 用户名和密码 */
+.input-group {
+  width: 343px;
+  margin-top: 20px; }
+  .input-group > input {
+    width: 200px;
+    height: 52px; }
+  .input-group:nth-of-type(2) {
+    margin-top: 12px; }
+
+.btn-group > button {
+  width: 343px;
+  height: 55px;
+  margin-top: 13px;
+  background-color: #0095f3;
+  color: #fff;
+  font-size: 16px; }
+  .btn-group > button:hover {
+    background-color: #0074D7;
+    color: #fff; }
+
+#remeber {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; }
+
+.rember {
+  width: 343px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 15px; }
+  .rember > label {
+    font-size: 14px;
+    font-weight: normal; }
+
+.forget {
+  margin-top: 10px;
+  width: 343px;
+  height: 54px;
+  border-bottom: 1px solid #aaa; }
+  .forget > a {
+    display: inline;
+    background: #fff;
+    margin-right: 20px; }
+
+.otherLogin {
+  padding-top: 50px; }
+  .otherLogin .img {
+    margin-top: 10px;
+    width: 343px;
+    height: 57px; }
+    .otherLogin .img > a > img {
+      margin-right: 5px; }
+
+/* 底部 */
+.footer {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 1180px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px; }
+  .footer > a {
+    margin-right: 20px;
+    color: #888;
+    font-size: 12px; }
+    .footer > a:hover {
+      color: black;
+      text-decoration: none; }
+    .footer > a:nth-of-type(3) {
+      padding-left: 20px;
+      background: url("../img/cnr.png") no-repeat; }
+    .footer > a:nth-of-type(5) {
+      color: #aaa;
+      margin-right: 0; }

@@ -1,0 +1,210 @@
+$width:1200px;
+.Max{
+    background-color: #eee;
+    width: 100%;
+}
+.main{
+    margin:50px auto;
+    width: $width;
+    font-size:16px;
+    .car_head{
+        width: $width;
+        height: 50px;
+        padding:0;
+        >li{
+            height: 50px;
+            line-height: 50px;
+            &:nth-of-type(1){
+                line-height: 50px;
+                input{
+                   margin-top: 15px;
+                }
+            }
+        }
+    }
+    >ul{
+        height: 100px;
+        padding: 5px 0;
+        border-bottom: 1px solid #E1E1E1;
+        border-top: 1px solid #E1E1E1;
+        background-color: #fff;
+        >li{
+            text-align: center;
+            float: left;
+            line-height: 100px;
+            width: 100px;
+            height: 100px;
+            &:nth-of-type(1){
+                text-align: left;
+                 width: 580px;
+                 >input{
+                    display: block;
+                    float:left;
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 5px;
+                    margin-top: 35px;
+                 }
+                 label{
+                     margin-left: 10px;
+                     font-weight: normal;
+                     margin-right: 30px;
+                     user-select: none; 
+                 }  
+                 >a{
+                     display: block;
+                     padding-top:5px;
+                    >img{
+                        float:left;
+                        width: 80px;
+                        margin-left: 50px;
+                    }
+                    >span{
+                        width: 400px;
+                        display: block;
+                        float:left;
+                        padding-top:5px;
+                        line-height: 25px;
+                        margin-left: 10px;
+                        &:hover{
+                            color:#0095f3;
+                        }
+                    }
+                 }
+            }
+            &:nth-of-type(3){
+                width: 120px;
+                input{
+                    height: 40px;
+                    text-align: center; 
+                    
+                }
+                .input-group{
+                    margin-top: 27px;
+                }
+                span{
+                    font-size:20px;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #ccc;
+                        user-select: none; 
+                    }
+                }
+            }
+            &:nth-of-type(7){
+                span{
+                    line-height: 25px;
+                    margin-top: 38px;
+                    margin-left: 38px;
+                    display: block;
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    &:hover{
+                        background-color: #0095f3;
+                        color:#fff;
+                        cursor: pointer;
+                    }
+                }
+            }
+            
+            
+        }
+    }
+}
+
+
+/*结算*/
+.buy{
+    margin: 0 auto;
+    width: $width;
+    height: 76px;
+    background-color: #F7F7F7;
+    line-height: 76px;
+    font-size:16px;
+    >input{
+        display: block;
+        float:left;
+        width: 20px;
+        height: 20px;
+        margin-top: 27px;
+        margin-left: 5px;
+    }
+    >label{
+        float:left;
+        margin-left: 10px;
+        font-weight: normal;
+        user-select: none; 
+    }
+    >p{
+        float: right;
+        font-size: 16px;
+        margin-right: 20px;
+        color:#0095f3;
+        line-height: 71px;
+        &:nth-of-type(2){
+            float:left;
+            margin-left: 10px;
+        }
+        >em{
+            color: #CC0000;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 24px;
+        }
+        >span{
+            color: #CC0000;
+            font-weight: bold;
+            font-size: 24px;
+        }
+    }
+    >a{
+        display: block;
+        width: 160px;
+        height: 44px;
+        background-color: #0095f3;
+        color: #fff;
+        float: right;
+        margin-top: 17px;
+        line-height: 44px;
+        font-size: 20px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        &:hover{
+            background-color: #0074D7;
+        }
+    }
+}
+
+.empty{
+    width:$width;
+    margin:0 auto;
+    height: 410px;
+    display:none;
+    padding-top:100px;
+    >h2{
+        text-align: center;
+
+    }
+    .empty-btn{
+        margin-top: 30px;
+        margin-left: 31%;
+        a{
+            display: block;
+            width: 210px;
+            height: 60px;
+            color:#fff;
+            font-size:26px; 
+            background-color: #0095f3;
+            line-height: 45px;
+            &:active{
+                background-color: #0095f3;
+                color:#fff;
+            }
+            &:hover{
+                background-color: #0074D7;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASUS 中国</title>
+    <link rel="icon" href="../img/icon_03.png">
+    <link rel="stylesheet" href="../css/common/bootstrap.css">
+    <link rel="stylesheet" href="../css/common/reset.css">
+    <link rel="stylesheet" href="../css/common/header.css">
+    <link rel="stylesheet" href="../css/common/right-nav.css">
+    <link rel="stylesheet" href="../css/common/footer.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+    
+    <!-- 右边固定栏 -->
+    <div id="right-nav"></div>
+
+    <!-- 引入头部 -->
+    <div id="header"></div>
+
+    <div class="Max">
+    <div class="main" id="main">
+            <!-- 购物车头部 -->
+        <ul class="car_head">
+            <li><input type="checkbox" id="all" class="all"> <label for="all"> 全选</label> &nbsp;&nbsp;&nbsp;&nbsp;商品</li>
+            <li>销售价</li>
+            <li>数量</li>
+            <li>优惠金额</li>
+            <li>积分</li>
+            <li>小计</li>
+            <li>操作</li>
+        </ul>
+        <!-- <ul>
+            <li><input type="checkbox" class="single-check">
+                <a href="##">
+                    <img src="../img/big.jpg" alt="">
+                    <span>【热销】灵耀X Pro-双屏扩展15.6寸轻薄本(Windows10home/i7-8750H/16G内存/512GB SSD/ GeForce® GTX 1050 Ti显卡)-深蓝</span>
+                </a>
+            </li>
+            <li class="price">￥6599</li>
+            <li>
+                <div class="input-group">
+                    <span class="input-group-addon sub">-</span>
+                    <input type="text" class="form-control num" value="1">
+                    <span class="input-group-addon add">+</span>
+                </div>
+            </li>
+            <li>￥0</li>
+            <li class="integral">6599</li>
+            <li class="single-total-price">￥6599</li>
+            <li><span class="del">X</span></li>
+
+        </ul> -->
+        
+    </div>
+    <!-- 结算 -->
+    <div class="buy">
+        <input type="checkbox" id="all" class="all"> 
+        <label for="all"> 全选</label>
+        <a href="##">去结算</a>
+        <p>合计<em id="totalPrice">￥0.00</em></p>
+        <p>已选择<span id="totalNum">0</span>件商品</p>
+    </div>
+    
+
+    <div class="empty">
+        <h2>哎呀，购物车还是空的</h2>
+        <div class="empty-btn">
+            <div class="btn-group" role="group" aria-label="...">
+                <a href="login.html" class="btn btn-default nowBuy">立即登录</a>
+            </div>
+            <div class="btn-group" role="group" aria-label="...">
+                <a href="ASUS.html" class="btn btn-default addCar">立即去选购</a>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+
+
+
+
+
+
+
+     <!-- 引入底部公共样式 -->
+     <div id="footer"></div>
+</body>
+</html>
+
+<script src="../js/lib/jquery-1.11.3.js"></script>
+<script src="../js/lib/bootstrap.min.js"></script>
+<!-- <script src="../js/plugin/swiper.min.js"></script> -->
+<script src="../js/common/header/header.js"></script>
+<script src="../js/common/fix-right/right-nav.js"></script>
+<script src="../js/common/footer/footer.js"></script>
+<script src="../js/common/page.js"></script>
+<script src="../js/js/cart.js"></script>
